@@ -1,0 +1,28 @@
+.full{
+    background-color: hwb(240 2% 73%);
+    width: 52px;
+    /* background-repeat:repeat-y;   */
+}
+
+.first{
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    padding-left: 13px;
+}
+.icons{
+    color:dimgrey;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 13px;
+}
+.head{
+    font-size: 20px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    padding-left: 20px;
+    background-color:rgba(169, 169, 169, 0.132);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-left: 50px;
+}
