@@ -1,28 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.display{
+    display: flex;
+}
 .full{
     background-color: hwb(240 2% 73%);
-    width: 52px;
+    width: 80px;
+    height:100%;
+    min-height:100vh;
+    /* border-radius:10px */
     /* background-repeat:repeat-y;   */
 }
-
 .first{
     font-size: 30px;
     font-family: "Montserrat", sans-serif;
     color: white;
-    padding-left: 13px;
+    padding-left: 23px;
+    padding-top: 15px;
 }
 .icons{
     color:dimgrey;
-    font-size: 20px;
+    font-size: 21px;
     padding-top: 30px;
-    padding-left: 13px;
+    padding-left: 23px;
+    padding-bottom: 30px;
 }
+.bxs-contact{
+    color: white;
+}
+.heading{
+    background-color:whitesmoke;
+    min-width:100vw;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    margin-left: 80px;
+   }
 .head{
     font-size: 20px;
     text-align: left;
     font-family: "Montserrat", sans-serif;
-    padding-left: 20px;
-    background-color:rgba(169, 169, 169, 0.132);
-    padding-bottom: 15px;
-    padding-top: 15px;
-    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
+.bxs-cog{
+    padding-left: 80rem;
+    font-size: 26px;
+    padding-bottom: 10px;
+    }
+    .bxs-help-circle{
+        font-size: 26px;
+        padding-left: 10px;
+     }
+     .bxs-user{
+        font-size: 26px;
+        padding-left: 10px;
+     }
+     .space{
+        padding-left: 78rem;
+        margin-top: 0%;
+        display: flex;
+    }
+    .bxs-down-arrow{
+        padding-left: 74rem;
+        font-size: 26px;
+    }
+    .sky{
+        font-size: 22px;
+        padding-left: 65rem;
+    }
+
+.group{
+    font-family:"Times New Roman";
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.option{
+    font-size: 20px;
+    text-align: left;
+    font-family: "Times New Roman";
+    padding-left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.list1{
+    color: #067cf3;
+    font-size: 14px;
+    padding-left: 43px;
+    font-weight: normal;
+    font-family:"Times New Roman";
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list{
+    font-size: 14px;
+    padding-left: 43px;
+    font-weight: normal;
+    font-family:"Times New Roman";
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.vl{
+    border-left: 3px solid whitesmoke;
+    height: 1000px;
+    position:absolute;
+    left: 12%;
+    margin-left: -3px;
+    top: 0;
+    margin-top: 70px;
+  }
+
+
+
+
