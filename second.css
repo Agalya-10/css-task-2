@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: 0px;
 }
 .display{
     display: flex;
@@ -9,7 +10,9 @@
     background-color: hwb(240 2% 73%);
     width: 80px;
     height:100%;
+    height: auto;
     min-height:100vh;
+    position: fixed;
     /* border-radius:10px */
     /* background-repeat:repeat-y;   */
 }
@@ -37,85 +40,261 @@
     position: fixed;
     height: 70px;
     margin-left: 80px;
+    display: flex;
    }
+   /* .right{
+    display: flex;
+    margin-left: 71%;
+   
+    /* padding-top: 0%; */
+ 
+    
 .head{
-    font-size: 20px;
+    /* font-size: 20px;
     text-align: left;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 20px; */
+    /* margin-top: 20px; */
+    font-family: "Public sans", sans-serif;
+    margin: 0px 0px 0px 20px;
+    padding:20px 0px;
+    font-size: 20px;
 }
-.bxs-cog{
-    padding-left: 80rem;
-    font-size: 26px;
-    padding-bottom: 10px;
-    }
-    .bxs-help-circle{
-        font-size: 26px;
-        padding-left: 10px;
-     }
-     .bxs-user{
-        font-size: 26px;
-        padding-left: 10px;
-     }
-     .space{
-        padding-left: 78rem;
-        margin-top: 0%;
-        display: flex;
-    }
-    .bxs-down-arrow{
-        padding-left: 74rem;
-        font-size: 26px;
-    }
-    .sky{
-        font-size: 22px;
-        padding-left: 65rem;
-    }
+#nav{
+    /* padding: 0px 6px; */
+    padding-left:990px ;
+    padding-top: 25px;
+    font-size: 16px;
 
+}
+#nav-space{
+    padding-top: 27px;   
+    letter-spacing: 15px;
+}
+.three-columns{
+    display: flex;
+}
+#second{
+    position: fixed;
+}
 .group{
+    
     font-family:"Times New Roman";
     font-size: 20px;
     font-weight: bolder;
-    padding-left: 30px;
-    padding-top: 40px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 .option{
+
+    font-family:"Times New Roman";
     font-size: 20px;
-    text-align: left;
-    font-family: "Times New Roman";
-    padding-left: 30px;
-    margin-bottom: 10px;
-    padding-bottom: 15px;
-    padding-top: 10px;
+    font-weight: bolder;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
 }
 .list1{
-    color: #067cf3;
+     color: #067cf3;
     font-size: 14px;
-    padding-left: 43px;
+    padding-left: 110px;
     font-weight: normal;
     font-family:"Times New Roman";
     padding-top: 10px;
     padding-bottom: 10px;
 }
 .list{
+ 
     font-size: 14px;
-    padding-left: 43px;
+    padding-left: 110px;
     font-weight: normal;
     font-family:"Times New Roman";
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .vl{
     border-left: 3px solid whitesmoke;
     height: 1000px;
     position:absolute;
+    /* padding-left: 50px; */
+    margin-left: 250px;
+    top: 0;
+    margin-top: 70px;
+    /* padding-left: 60px; */
+  }
+  .vl1{
+    border-left: 3px solid whitesmoke;
+    height: 1000px;
+    position:absolute;
     left: 12%;
-    margin-left: -3px;
+    margin-left: 58%;
     top: 0;
     margin-top: 70px;
   }
-
+  h4{
+    font-family: "Public sans", sans-serif;
+    font-size:16px;
+    color: black;
+    margin-top:120px;
+    margin-left: 280px;
+  }
+ .email{
+    font-size: 17px;
+    font-weight: normal;
+    margin-top:20px;
+    margin-left: 280px;
+    padding-top: 8px;
+  }
+  .bxs-circle{
+    font-size: 10px;
+    color: red;
+  }
+  .contact{
+    width: 680px;
+    padding: 7px;
+    margin: 20px 0px;
+    margin-left: 280px;
+    border-radius: 6px;
+    border: none;
+    background-color: whitesmoke;
+}
+.label1{
+    font-size: 17px;
+    /* padding-top: 5px; */
+    font-weight: normal;
+    display: grid;
+    padding-left: 280px;
+    grid-template-columns: repeat(2,auto);
+}
+.name1{
+    font-size: 17px;
+    font-weight: normal;
+    margin-top:2px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    /* padding-right: 10px; */
+    padding-top: 8px;
+}
+.mate{
+    width: 330px;
+    padding: 7px;
+    /* margin: 20px 0px; */
+    /* margin-left: 10px; */
+    border-radius: 6px;
+    padding-left: px;
+    border: none;
+    background-color: whitesmoke;
+}
+.text{
+    font-size: 17px;
+    font-weight: normal;
+    margin-top:20px;
+    margin-left: 280px;
+    padding-top: 8px;
+}
+.full1{
+    width: 680px;
+    padding: 7px;
+    margin: 20px 0px;
+    margin-left: 280px;
+    border-radius: 6px;
+    border: none;
+    background-color: whitesmoke;
+}
+.add{
+    font-family: "Public sans", sans-serif;
+    font-size:16px;
+    color: black;
+    margin-top:20px;
+    margin-left: 280px;
+}
+.address{
+    font-size: 17px;
+    font-weight: normal;
+    margin-top:20px;
+    margin-left: 280px;
+    padding-top: 8px;
+}
+.address1{
+    width: 680px;
+    padding: 7px;
+    margin: 20px 0px;
+    margin-left: 280px;
+    border-radius: 6px;
+    border: none;
+    background-color: whitesmoke;
+}
+.add2{
+    font-size: 17px;
+    font-weight: normal;
+    margin-top:5px;
+    margin-left: 280px;
+    padding-top: 8px;
+}
+.line2{
+    width: 680px;
+    padding: 7px;
+    margin: 20px 0px;
+    margin-left: 280px;
+    border-radius: 6px;
+    border: none;
+    background-color: whitesmoke;
+}
+.inout{
+    /* margin-left: 160px; */
+    margin-top: 110px;
+    font-size: 7px;
+    font-weight: normal;
+    font-family:"Times New Roman";
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    height: 30px;
+}
+.input{
+    margin-left: 110px;
+    border: 2px solid rgba(128, 128, 128, 0.415);
+    width: 90px;
+    border-radius: 5px;
+    padding: 8px;
+}
+.input:hover{
+    background-color: whitesmoke;
+}
+.input1{
+    margin-right: 210px;
+    border: 2px solid rgba(128, 128, 128, 0.415);
+    width: 90px;
+    background-color:darkgray;
+    border-radius: 5px;
+    padding: 8px;
+}
+    .grp{
+        font-size: 18px;
+        margin-left: 110px;
+        margin-top: 40px;
+    }
+    .click{
+        margin-left: 110px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .search{
+        margin-left:110px ;
+        padding-top: 10px;
+        font-size: 15px;
+        /* font-weight: normal; */
+        border: 3px solid rgba(128, 128, 128, 0.985);
+        height: 20px;
+        width: 340px;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        padding-left: 10px;
+    }
 
 
 
