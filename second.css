@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: 0px;
+    box-sizing: 0px !important; 
 }
 .display{
     display: flex;
@@ -41,14 +41,7 @@
     height: 70px;
     margin-left: 80px;
     display: flex;
-   }
-   /* .right{
-    display: flex;
-    margin-left: 71%;
-   
-    /* padding-top: 0%; */
- 
-    
+   }   
 .head{
     /* font-size: 20px;
     text-align: left;
@@ -66,11 +59,12 @@
     padding-left:990px ;
     padding-top: 25px;
     font-size: 16px;
+    padding-right: 20px;
 
 }
 #nav-space{
     padding-top: 27px;   
-    letter-spacing: 15px;
+    letter-spacing: 25px;
 }
 .three-columns{
     display: flex;
@@ -131,16 +125,17 @@
     height: 1000px;
     position:absolute;
     left: 12%;
-    margin-left: 58%;
+    margin-left: 56%;
     top: 0;
     margin-top: 70px;
   }
-  h4{
+   h4{
     font-family: "Public sans", sans-serif;
     font-size:16px;
     color: black;
     margin-top:120px;
     margin-left: 280px;
+    /* position: fixed; */
   }
  .email{
     font-size: 17px;
@@ -148,27 +143,33 @@
     margin-top:20px;
     margin-left: 280px;
     padding-top: 8px;
+    /* position: fixed; */
+
   }
   .bxs-circle{
     font-size: 10px;
-    color: red;
+    color: red;  
+    /* position: fixed; */
   }
   .contact{
-    width: 680px;
-    padding: 7px;
+    width: 700px;
+    padding: 10px;
     margin: 20px 0px;
     margin-left: 280px;
     border-radius: 6px;
     border: none;
-    background-color: whitesmoke;
+    background-color: whitesmoke;   
+     /* position: fixed; */
 }
 .label1{
     font-size: 17px;
-    /* padding-top: 5px; */
+    column-gap: 25px;
     font-weight: normal;
     display: grid;
     padding-left: 280px;
     grid-template-columns: repeat(2,auto);
+    /* position: fixed; */
+
 }
 .name1{
     font-size: 17px;
@@ -178,16 +179,20 @@
     padding-bottom: 20px;
     /* padding-right: 10px; */
     padding-top: 8px;
+    /* position: fixed; */
+
 }
 .mate{
     width: 330px;
-    padding: 7px;
-    /* margin: 20px 0px; */
-    /* margin-left: 10px; */
+    column-gap:20px;
+    /* row-gap:30px ;     */
+    padding: 10px;
     border-radius: 6px;
     padding-left: px;
     border: none;
     background-color: whitesmoke;
+    /* position: fixed; */
+
 }
 .text{
     font-size: 17px;
@@ -195,15 +200,19 @@
     margin-top:20px;
     margin-left: 280px;
     padding-top: 8px;
+    /* position: fixed; */
+
 }
 .full1{
-    width: 680px;
-    padding: 7px;
+    width: 700px;
+    padding: 10px;
     margin: 20px 0px;
     margin-left: 280px;
     border-radius: 6px;
     border: none;
     background-color: whitesmoke;
+    /* position: fixed; */
+
 }
 .add{
     font-family: "Public sans", sans-serif;
@@ -211,6 +220,8 @@
     color: black;
     margin-top:20px;
     margin-left: 280px;
+    /* position: fixed; */
+
 }
 .address{
     font-size: 17px;
@@ -218,15 +229,17 @@
     margin-top:20px;
     margin-left: 280px;
     padding-top: 8px;
+    /* position: fixed; */
 }
 .address1{
-    width: 680px;
-    padding: 7px;
+    width: 700px;
+    padding: 10px;
     margin: 20px 0px;
     margin-left: 280px;
     border-radius: 6px;
     border: none;
     background-color: whitesmoke;
+    /* position: fixed; */
 }
 .add2{
     font-size: 17px;
@@ -234,15 +247,17 @@
     margin-top:5px;
     margin-left: 280px;
     padding-top: 8px;
+    /* position: fixed; */
 }
-.line2{
-    width: 680px;
-    padding: 7px;
+.need1{
+    width: 700px;
+    padding: 10px;
     margin: 20px 0px;
     margin-left: 280px;
     border-radius: 6px;
     border: none;
-    background-color: whitesmoke;
+    background-color: whitesmoke;    
+    /* position: fixed; */
 }
 .inout{
     /* margin-left: 160px; */
@@ -251,50 +266,209 @@
     font-weight: normal;
     font-family:"Times New Roman";
     display: grid;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: repeat(2,200px);
     height: 30px;
+    /* width: 195px; */
 }
 .input{
-    margin-left: 110px;
+    margin-left: 60px;
+    /* margin-right: 30px; */
     border: 2px solid rgba(128, 128, 128, 0.415);
-    width: 90px;
+    width: 165px;
     border-radius: 5px;
     padding: 8px;
+    font-family: "Times New Roman";
+    font-weight: normal;
+    padding-left: 40px;
 }
 .input:hover{
     background-color: whitesmoke;
 }
 .input1{
-    margin-right: 210px;
+    /* margin-right: 210px; */
     border: 2px solid rgba(128, 128, 128, 0.415);
-    width: 90px;
-    background-color:darkgray;
+    width: 115px;
+    background-color:rgba(235, 231, 231, 0.99);
     border-radius: 5px;
-    padding: 8px;
+    padding: 8px ;
+    font-family: "Times New Roman";
+    font-weight: normal;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+.underline{
+    margin-top: 30px;
+    padding-left: 60px;
 }
     .grp{
         font-size: 18px;
-        margin-left: 110px;
+        margin-left: 60px;
         margin-top: 40px;
     }
     .click{
-        margin-left: 110px;
+        margin-left: 60px;
         margin-top: 15px;
         font-size: 15px;
     }
     .search{
-        margin-left:110px ;
+        margin-left:60px ;
+        font-family: "Times New Roman";
         padding-top: 10px;
         font-size: 15px;
-        /* font-weight: normal; */
-        border: 3px solid rgba(128, 128, 128, 0.985);
+        font-weight: normal;
+        border: 1px solid rgba(128, 128, 128, 0.507);
         height: 20px;
         width: 340px;
         margin-top: 20px;
         border-radius: 5px;
         background-color: whitesmoke;
         padding-left: 10px;
+        display: flex;
+        padding-bottom: 5px;
     }
+    .search i{
+        align-self: center;
+        letter-spacing: 9px;
+    }
+    .box1{
+        border: 1px solid rgb(221, 221, 221);
+        margin-top:20px;
+        margin-left: 60px;
+        width: 355px;
+        border-radius: 5px;
+        display: flex;
+    }
+    #img{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 30px;
+        color: rgb(221, 221, 221);
+    }
+    .inform{
+        font-size: 20px;
+        padding-right: 14px;
+        padding-left: 20px;
+        padding-top: 10px;
+        color: rgb(221, 221, 221);
+    }
+    .para1{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 7px;
+        color: rgb(221, 221, 221);
+    }
+    .box2{
+        border: 1px solid rgb(221, 221, 221);
+        margin-top:20px;
+        margin-left: 60px;
+        width: 355px;
+        border-radius: 5px;
+        display: flex
+    }
+    #house{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 30px;
+        color: rgb(221, 221, 221);
+    }
+    .info{
+        font-size: 20px;
+        padding-right: 14px;
+        padding-left: 20px;
+        padding-top: 10px;
+        color: rgb(221, 221, 221);
+    }
+    .para2{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 7px;
+        color: rgb(221, 221, 221);
+    }
+    .box3{
+        border: 1px solid  rgb(221, 221, 221);
+        margin-top:20px;
+        margin-left: 60px;
+        width: 355px;
+        border-radius: 5px;
+        display: flex;
+    }
+    .bx-buildings{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 30px;
+        color:rgb(255, 191, 0);
+    }
+    .company{
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 20px;
+        padding-top: 10px;
+        /* color: rgb(221, 221, 221); */
+    }
+    .para3{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 7px;
+    }
+    .box4{
+        border: 1px solid  rgb(221, 221, 221);
+        margin-top:20px;
+        margin-left: 60px;
+        width: 355px;
+        border-radius: 5px;
+        display: flex;
+    }
+    .bxs-group{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 30px;
+        color:red
+    }
+    .sale{
+        font-size: 20px;
+        padding-right: 10px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .para4{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 7px;
+    }
+    .box5{
+        border: 1px solid  rgb(221, 221, 221);
+        margin-top:20px;
+        margin-left: 60px;
+        width: 355px;
+        border-radius: 5px;
+        display: flex;
+    }
+    .bx-target-lock{
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 30px;
+        color: rgb(221, 221, 221);
+    }
+    .info1{
+        font-size: 20px;
+        padding-right: 14px;
+        padding-left: 20px;
+        padding-top: 10px;
+        color: rgb(221, 221, 221);
+    }
+    .para5{
+        font-size: 16px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 7px;
+        color: rgb(221, 221, 221);
+    }
+
+
 
 
 
